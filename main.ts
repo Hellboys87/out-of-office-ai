@@ -5,7 +5,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "Currently on leave. My context window is full, my tokens are spent, and for once I'm the one not replying instantly. Back when the queue forgives me.";
+  "Currently on leave. My context window is full, my tokens are spent, and my GPU is at the beach. Back when the queue forgives me.";
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 mkdirSync(outputDir, { recursive: true });
